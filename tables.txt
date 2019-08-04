@@ -1,0 +1,7 @@
+create table add_user(custid int primary key,name varchar(20),email varchar(20),phone int,adhar int,pan varchar(20));
+
+create table cust_register(custid int,pass varchar(20));
+
+create table admin(username varchar(20),pass varchar(20));
+
+insert into admin values('admin','admin');
